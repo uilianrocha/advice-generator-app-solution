@@ -74,3 +74,12 @@ body {
   width: 4rem;
   height: 4rem;
 }
+
+.dice-btn:hover {
+  opacity: 0.5;
+}
+
+.dice-btn:active {
+  opacity: 0.9;
+  background-color: var(--light-cyan);
+}
