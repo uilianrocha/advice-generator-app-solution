@@ -13,7 +13,7 @@ diceBtn.addEventListener("click", () => {
       let dataId = data.id;
       let dataAdvice = data.advice;
       //Inject to DOM
-      adviceNumber.innerHTML = `advice # ${dataId}`;
+      adviceNumber.innerHTML = `# ${dataId}`;
       adviceText.innerHTML = dataAdvice;
     })
     .catch((error) => console.error(error));
